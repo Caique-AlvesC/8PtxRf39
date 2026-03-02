@@ -1,0 +1,78 @@
+{
+  "id": "pf2e-bestiaries",
+  "title": "Pf2e Tok: Bestiaries",
+  "description": "<p>Pacote de tokens e retratos para uso no Foundry VTT.</p><p>Inclui mapeamentos para inserção automática em compêndios/sistemas compatíveis.</p>",
+  
+  "manifest": "https://raw.githubusercontent.com/Caique-AlvesC/8rgzcKWi/refs/heads/main/module.json",
+  "download": "https://github.com/Caique-AlvesC/8rgzcKWi/releases/download/v1.2.5/pf2e-bestiaries.zip",
+  
+  "version": "1.2.5",
+
+  "url": "-",
+
+  "media": [
+    {
+      "type": "setup",
+      "url": "https://seu-cdn-ou-raw/seu-banner-ou-screenshot.jpg",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "icon",
+      "url": "https://seu-cdn-ou-raw/icone.png",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+
+  "packs": [],
+  "scripts": [],
+  "esmodules": ["./index.js"],
+  "styles": ["./style.css"],
+
+  "authors": [
+    {
+      "name": "Seu Nome / Seu Grupo",
+      "url": "https://seu-link",
+      "flags": {}
+    }
+  ],
+
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+
+  "relationships": {
+    "requires": []
+  },
+
+ "flags": {
+    "galleryDatasheets": {
+        "bestiaries": {
+            "label": "Pathfinder Tokens: Bestiaries Datasheet",
+            "hint": "Artwork from the Pathfinder Tokens: Bestiaries module, predominantly drawn from Pathfinder Second Edition's three Bestiaries rulebooks.",
+            "sheet": "modules/pf2e-bestiaries/datasheet-bestiaries.json"
+        }
+    },
+    "compendiumArtMappings": {
+      "pf2e": {
+        "mapping": "modules/pf2e-bestiaries/module/map-pf2e.json",
+        "credit": "<em>Portrait, token, and subject artwork from Pathfinder Tokens: Bestiaries.</em>"
+      }
+    },
+    "tokenRingSubjectMappings": {
+      "modules/pf2e-bestiaries/tokens/": "modules/pf2e-bestiaries/subjects/"
+    },
+    "pf2e-bestiaries": {
+      "dnd5e-art": "modules/pf2e-bestiaries/module/map-dnd5e.json",
+      "dnd5e-art-credit": "<em>Portrait, token, and subject artwork from Pathfinder Tokens: Bestiaries.</em>",
+      "archmage-art": "modules/pf2e-bestiaries/module/map-archmage.json",
+      "swade-art": "modules/pf2e-bestiaries/module/map-swpf.json",
+      "shadowdark-art": "modules/pf2e-bestiaries/module/map-shadowdark.json"
+    }
+  },
+  "protected": true
+ 
+}
