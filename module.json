@@ -73,7 +73,7 @@
       "shadowdark-art": "modules/pf2e-bestiaries/module/map-shadowdark.json"
     }
   },
-  "protected": False
+  "protected": false
 
  
 }
